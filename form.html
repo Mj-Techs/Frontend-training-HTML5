@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Element</title>
+  </head>
+  <body>
+    <h1>This is Form</h1>
+    <form>
+      <div>
+        <label>First Name</label>
+        <input type="text" name="fname" />
+      </div>
+      <hr />
+      <div>
+        <label>Last Name</label>
+        <input type="text" name="lname" />
+      </div>
+      <hr />
+      <div>
+        <label>Email</label>
+        <input type="email" name="email" />
+      </div>
+      <hr />
+      <div>
+        <label>Mobile</label>
+        <input type="number" name="Mobile" />
+      </div>
+      <hr />
+      <div>
+        <label>Gender</label><br />
+        <input type="radio" name="gender" value="male" />
+        <label>Male</label>
+        <input type="radio" name="gender" value="female" />
+        <label>Female</label>
+        <input type="radio" name="gender" value="other" />
+        <label>Other</label>
+      </div>
+      <hr />
+      <div>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" />
+        <label for="vehicle1"> I have a bike</label><br />
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car" />
+        <label for="vehicle2"> I have a car</label><br />
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat" />
+        <label for="vehicle3"> I have a boat</label>
+      </div>
+      <hr />
+      <div>
+        <label>Choose a car:</label>
+        <select name="cars">
+          <option value="volvo">Volvo</option>
+          <option value="feerari">Ferrari</option>
+          <option value="audi">Audi</option>
+          <option value="bmw">BMW</option>
+        </select>
+      </div>
+      <hr />
+      <div>
+        <label>Message</label>
+        <textarea name="message" cols="30" rows="10"></textarea>
+      </div>
+      <hr />
+      <input type="submit" value="save" />
+      <embed src="basic.html" type="text/html" width="900" height="400" />
+    </form>
+  </body>
+</html>
